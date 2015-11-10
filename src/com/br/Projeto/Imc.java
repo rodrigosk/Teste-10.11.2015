@@ -21,10 +21,10 @@ public class Imc {
 		imc = peso / (altura * altura);
 		
 		if(imc < 18.5){
-			System.out.println("*Voce está abaixo do peso ideal");
+			System.out.println("*Voce está abaixo magrelo");
 		}
 		if(imc >=18.5 && imc <=24.9){
-			System.out.println("Parabens - voce esta normal nao ");
+			System.out.println("Parabens - voce esta normal Caboco ");
 		}
 		if(imc >=25 && imc <= 29.9){
 			System.out.println("Voce ta meio gorda");
